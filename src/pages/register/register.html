@@ -1,0 +1,37 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Create Account!!!
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list>
+
+    <ion-item>
+      <ion-label floating>FristName</ion-label>
+      <ion-input type="text" #firstname></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label floating>LastName</ion-label>
+      <ion-input type="text" #lastname></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label floating>Username</ion-label>
+      <ion-input type="text" #username></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label floating>Email</ion-label>
+      <ion-input type="text" #email></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label floating>Password</ion-label>
+      <ion-input type="password" #password></ion-input>
+    </ion-item>
+  
+  </ion-list>
+  <div padding>
+    <button ion-button full color="light" (click)="registerUser()">Registor!!</button>
+  </div>
+</ion-content>
